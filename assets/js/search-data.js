@@ -461,6 +461,11 @@ ninja.data = [{
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-risc-v-rv32i-core-design",
+          title: 'RISC-V RV32I Core Design',
+          description: "SystemVerilog를 활용한 5-Stage 파이프라인 프로세서 설계 및 검증",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/riscv-core/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
